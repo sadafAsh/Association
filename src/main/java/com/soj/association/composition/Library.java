@@ -7,11 +7,13 @@ import java.util.List;
 
 public class Library {
     static final Logger logger= LogManager.getLogger(Library.class.getName());
+
     private List<Book> books;
 
     public Library(List<Book> books) {
         this.books = books;
     }
+
 
     public List<Book> getTotalBooksInLibrary() {
         return books;
