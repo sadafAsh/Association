@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="afe5405c-0165-4c80-9371-f0c06b2f5130" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/javaJourney.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/javaJourney.log" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,6 +14,37 @@
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
     </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Association" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Association" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Association" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build" type="c8890929:TasksNode$1" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -117,13 +149,21 @@
       <option name="project" value="LOCAL" />
       <updated>1643888011161</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="testing finished">
+      <created>1643910977060</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1643910977060</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="student class finished" />
     <MESSAGE value="composition finished" />
-    <option name="LAST_COMMIT_MESSAGE" value="composition finished" />
+    <MESSAGE value="testing finished" />
+    <option name="LAST_COMMIT_MESSAGE" value="testing finished" />
   </component>
   <component name="WindowStateProjectService">
     <state x="489" y="78" key="#com.intellij.ide.util.MemberChooser" timestamp="1643886285335">
@@ -154,9 +194,10 @@
       <screen x="0" y="0" width="1368" height="720" />
     </state>
     <state x="276" y="95" key="Vcs.Push.Dialog.v2/0.0.1368.720@0.0.1368.720" timestamp="1643882585647" />
-    <state x="407" y="163" key="git4idea.merge.GitPullDialog" timestamp="1643892866184">
-      <screen x="0" y="0" width="1368" height="720" />
+    <state x="571" y="234" key="git4idea.merge.GitPullDialog" timestamp="1643911097951">
+      <screen x="0" y="0" width="1920" height="1032" />
     </state>
     <state x="407" y="163" key="git4idea.merge.GitPullDialog/0.0.1368.720@0.0.1368.720" timestamp="1643892866184" />
+    <state x="571" y="234" key="git4idea.merge.GitPullDialog/0.0.1920.1032@0.0.1920.1032" timestamp="1643911097951" />
   </component>
 </project>
