@@ -1,3 +1,10 @@
-DEBUG [main] 2022-02-03T09:48:06,583  (line ) total students in institute:
-DEBUG [main] 2022-02-03T09:48:06,583  (line ) 4
-DEBUG [main] 2022-02-03T09:48:06,583  (line ) HIGH LAND
+DEBUG [main] 2022-02-03T11:20:38,895  (line ) total students in institute:
+DEBUG [main] 2022-02-03T11:20:38,897  (line ) 4
+DEBUG [main] 2022-02-03T11:20:38,897  (line ) HIGH LAND
+ INFO [main] 2022-02-03T11:20:38,897  (line ) ........................................................................
+ INFO [main] 2022-02-03T11:20:38,897  (line ) composition
+ INFO [main] 2022-02-03T11:20:38,898  (line ) the total books in library are
+DEBUG [main] 2022-02-03T11:20:38,898  (line ) 3
+DEBUG [main] 2022-02-03T11:20:38,899  (line ) Title of the book is: Head First java , and its author is  Kathy Sierra.
+DEBUG [main] 2022-02-03T11:20:38,899  (line ) Title of the book is: Clean Code , and its author is Robert.C.Martin.
+DEBUG [main] 2022-02-03T11:20:38,899  (line ) Title of the book is: Design pattern , and its author is Erich Gamma.
