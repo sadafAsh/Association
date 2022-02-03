@@ -13,13 +13,7 @@ public class Library {
         this.books = books;
     }
 
-    public List<Book> getTotalBooksinLibrary() {
-        int noOfBooks=0;
-        for(Book book:books){
-            book.getTitle();
-            noOfBooks++;
-        }
-        logger.debug(noOfBooks);
+    public List<Book> getTotalBooksInLibrary() {
         return books;
     }
 
@@ -27,5 +21,14 @@ public class Library {
         this.books = books;
     }
 
+    public int getTotalNoOfBooks(){
+        int noOfBooks=0;
+        for(Book book:books){
+            book.getTitle();
+        noOfBooks++;
+        }
+        return noOfBooks;
+
+    }
 
 }

@@ -49,8 +49,10 @@ logger.info("composition");
         bookList.add(book3);
 
         Library library=new Library(bookList);
-        logger.info("the total books in library are");
-       List<Book> books= library.getTotalBooksinLibrary();
+        int total=library.getTotalNoOfBooks();
+        logger.debug("the total books in library is {}.",total);
+
+       List<Book> books= library.getTotalBooksInLibrary();
         for(Book book:books){
             logger.debug("Title of the book is: {} , and its author is {}.",book.getTitle(),book.getAuthor());
         }
