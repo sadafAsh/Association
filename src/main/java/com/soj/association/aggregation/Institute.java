@@ -35,6 +35,7 @@ public class Institute {
             students = department.getStudents();
 
             for (Student student : students) {
+                student.getName();
                 noOfStudents++;
             }
         }return noOfStudents;
