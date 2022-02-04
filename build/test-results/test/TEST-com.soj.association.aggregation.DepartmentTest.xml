@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.soj.association.aggregation.DepartmentTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2022-02-03T18:03:35" hostname="DESKTOP-H3C67DB" time="0.033">
+  <properties/>
+  <testcase name="testToSetDepartmentName()" classname="com.soj.association.aggregation.DepartmentTest" time="0.027"/>
+  <testcase name="testToSetListOfStudentsInDepartment()" classname="com.soj.association.aggregation.DepartmentTest" time="0.005"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

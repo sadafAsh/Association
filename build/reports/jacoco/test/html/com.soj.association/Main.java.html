@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>Main.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">Association</a> &gt; <a href="index.source.html" class="el_package">com.soj.association</a> &gt; <span class="el_source">Main.java</span></div><h1>Main.java</h1><pre class="source lang-java linenums">package com.soj.association;
+
+import com.soj.association.aggregation.Department;
+import com.soj.association.aggregation.Institute;
+import com.soj.association.aggregation.Student;
+import com.soj.association.composition.Book;
+import com.soj.association.composition.Library;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+
+import java.util.ArrayList;
+import java.util.List;
+
+<span class="nc" id="L14">public class Main {</span>
+<span class="nc" id="L15">    static final Logger logger= LogManager.getLogger(Main.class.getName());</span>
+    public static void main(String[] args){
+<span class="nc" id="L17">        Student s1=new Student(1,&quot;Mia&quot;,&quot;CSE&quot;);</span>
+<span class="nc" id="L18">        Student  s2=new Student(2,&quot;Priya&quot;,&quot;CSE&quot;);</span>
+<span class="nc" id="L19">        Student s3=new Student(1,&quot;John&quot;,&quot;EE&quot;);</span>
+<span class="nc" id="L20">        Student  s4=new Student(2,&quot;Jack&quot;,&quot;EE&quot;);</span>
+
+<span class="nc" id="L22">        List&lt;Student&gt; cseStudents=new ArrayList&lt;&gt;();</span>
+<span class="nc" id="L23">        cseStudents.add(s1);</span>
+<span class="nc" id="L24">        cseStudents.add(s2);</span>
+<span class="nc" id="L25">        List&lt;Student&gt; eeStudents=new ArrayList&lt;&gt;();</span>
+<span class="nc" id="L26">        eeStudents.add(s3);</span>
+<span class="nc" id="L27">        eeStudents.add(s4);</span>
+
+<span class="nc" id="L29">        Department cSE=new Department(&quot;CSE&quot;,cseStudents);</span>
+<span class="nc" id="L30">        Department eE=new Department(&quot;EE&quot;,eeStudents);</span>
+
+<span class="nc" id="L32">        List&lt;Department&gt; departmentList=new ArrayList&lt;&gt;();</span>
+<span class="nc" id="L33">        departmentList.add(cSE);</span>
+<span class="nc" id="L34">        departmentList.add(eE);</span>
+
+<span class="nc" id="L36">        Institute institute=new Institute(&quot;HIGH LAND&quot;,departmentList);</span>
+
+<span class="nc" id="L38">        logger.debug(&quot;total students in institute:&quot;);</span>
+<span class="nc" id="L39">        logger.debug(institute.getTotalStudentInInstitute());</span>
+<span class="nc" id="L40">        logger.debug(institute.getInstituteName());</span>
+<span class="nc" id="L41">logger.info(&quot;........................................................................&quot;);</span>
+<span class="nc" id="L42">logger.info(&quot;composition&quot;);</span>
+<span class="nc" id="L43">        Book book1=new Book(&quot;Head First java&quot;,&quot; Kathy Sierra&quot;);</span>
+<span class="nc" id="L44">        Book book2=new Book(&quot;Clean Code&quot;,&quot;Robert.C.Martin&quot;);</span>
+<span class="nc" id="L45">        Book book3=new Book(&quot;Design pattern&quot;,&quot;Erich Gamma&quot;);</span>
+<span class="nc" id="L46">        List&lt;Book&gt; bookList=new ArrayList&lt;&gt;();</span>
+<span class="nc" id="L47">        bookList.add(book1);</span>
+<span class="nc" id="L48">        bookList.add(book2);</span>
+<span class="nc" id="L49">        bookList.add(book3);</span>
+
+<span class="nc" id="L51">        Library library=new Library(bookList);</span>
+<span class="nc" id="L52">      int total=  library.getTotalNoOfBooks();</span>
+<span class="nc" id="L53">      logger.debug(&quot;the total books in library is {}.&quot;,total);</span>
+
+<span class="nc" id="L55">       List&lt;Book&gt; books= library.getTotalBooksInLibrary();</span>
+<span class="nc bnc" id="L56" title="All 2 branches missed.">        for(Book book:bookList){</span>
+<span class="nc" id="L57">            logger.debug(&quot;Title of the book is: {} , and its author is {}.&quot;,book.getTitle(),book.getAuthor());</span>
+<span class="nc" id="L58">        }</span>
+
+
+<span class="nc" id="L61">    }</span>
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.2.201808211720</span></div></body></html>

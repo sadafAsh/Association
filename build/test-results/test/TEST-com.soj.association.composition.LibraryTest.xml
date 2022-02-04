@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.soj.association.composition.LibraryTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2022-02-03T18:03:35" hostname="DESKTOP-H3C67DB" time="0.583">
+  <properties/>
+  <testcase name="testForGettingTotalBooksInLibrary()" classname="com.soj.association.composition.LibraryTest" time="0.581"/>
+  <testcase name="testToSetTheListOfBooks()" classname="com.soj.association.composition.LibraryTest" time="0.001"/>
+  <testcase name="testForGettingTotalNoOfBooks()" classname="com.soj.association.composition.LibraryTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

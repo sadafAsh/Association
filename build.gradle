@@ -19,7 +19,7 @@ sonarqube {
         property 'sonar.host.url', 'http://localhost:9000'
         property 'sonar.login','9447924f5d7eb76993a08e439596828b94eed34a'
         property 'sonar.projectKey','Association '
-        property "sonar.exclusions", "**/*Main"
+        property "sonar.exclusions", "**/Main.*"
     }
 }
 
