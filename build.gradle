@@ -55,13 +55,7 @@ jacocoTestReport {
         }))
     }
 }
-//
-//        <properties>
-//        <sonar.coverage.exclusions>
-//        **/domain/**/*,
-//        **/pojos/*
-//    </sonar.coverage.exclusions>
-//</properties>
+
 
 repositories {
     mavenCentral()

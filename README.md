@@ -14,7 +14,7 @@ multiple rooms which shows it is one-to-many relationship.
     
  
 3.Many-to-one:
-       There can be many books in a one library.This is the example of many-to-one 
+       There can be many books in a one library.It is the example of many-to-one 
 relationship where many book is associated with a library.
    
 4.Many-to-many:
@@ -26,11 +26,12 @@ There are two forms of association.They are:
 1.Composition
 2.Aggregation
          
+
 ASSOCIATION:
       Aggregation is kind of association.It represent the HAS-A relationship between 
 classes.In aggregation,both the objects survive independently.It means if one object 
-destroy it won't affect the other object.For example,Bank and Employee,if we delete 
-Bank employee still exist.In the 'aggregation' package the'Institute' class which has
+destroy it won't affect the other object.For example,"Bank" and "Employee",if we delete 
+"Bank", "Employee" still exist.In the 'aggregation' package the'Institute' class which has
 no.of department.'Department' class has no.of students.So we make an institute class
 which has a reference to list of objects of the department class.That means Institute
 class is associated with Department class.And Department class also has a reference
@@ -41,12 +42,19 @@ COMPOSITION:
      Composition is another kind of association.It represent a part-of relationship
 between two objects.In composition,the entities are completely dependent on each 
 other.They cannot exist without each other entity.In the composition package,a 
-library has no books.So,if the Library get destroyed then all the Books within that
-library will get destroyed.This shows that Books cannot exist with Library.    
+"Library" has List of books.If the "Library" class get deleted then all the books within that
+"Library" will also get destroyed.This shows that "Book" cannot exist without "Library".    
 
 JunitTest:
-      There is JUnit Test also present for all the entities and test coverage are 100%
-successful by jacoco reports. 
+      
+   The  Junit Test is done of all the entities in  Abstract Factory pattern project and test coverage is
+100% successful in jacoco report.
+
+       
+  SONARQUBE :
+          In sonarqube,reliability ,security , securityReview and maintainability is A and 
+the code coverage is 100%. 
+  
 
 sonarqube
 gradle sonarqube 
