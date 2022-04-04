@@ -47,7 +47,7 @@ other.They cannot exist without each other entity.In the composition package,a
 
 JunitTest:
       
-   The  Junit Test is done of all the entities in  Abstract Factory pattern project and test coverage is
+   The  Junit Test is done of all the entities in  Association pattern project and test coverage is
 100% successful in jacoco report.
 
        
